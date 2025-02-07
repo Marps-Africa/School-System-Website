@@ -1,7 +1,6 @@
-
+# Enable Rewrite Engine
 RewriteEngine On
-RewriteBase /
-RewriteRule ^index\.html$ - [L]
+# Redirect all requests to index.html
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /dist/index.html [L]
+RewriteRule ^ index.html [L]

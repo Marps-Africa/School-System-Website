@@ -14,17 +14,17 @@ const Section1 = () => {
 
       <div className="relative z-10  px-4 lg:px-[5vw] 3xl:px-[10vw] py-16 lg:py-32 3xl:py-64 flex flex-col items-start lg:w-1/2 justify-center text-center h-full text-white">
         <h1 className="text-5xl font-bold ">Educator</h1>
-        <div className="w-[10vw] mb-6 border-2 border-blue-500"></div>
+        <div className="w-[10vw] mb-6 border-2 border-primary-900"></div>
         <p className="text-xl mb-8 text-start">
           Manage your school easily with our all-in-one system for records,
           grading, and communication.
         </p>
-        <NavLink
+        {/* <NavLink
           to="/auth/login"
-          className="px-12 py-3 border rounded-md border-blue-500  text-white text-xl font-semibold hover:bg-blue-500  hover:text-black transition-all"
+          className="px-12 py-3 border rounded-md border-primary-900  text-white text-xl font-semibold hover:bg-primary-900  hover:text-white transition-all"
         >
           LOG IN
-        </NavLink>
+        </NavLink> */}
       </div>
     </div>
   );

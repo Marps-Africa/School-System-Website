@@ -11,7 +11,7 @@ const ToAbout = () => {
         To all who are{" "}
         <span>
           <motion.div
-            className="relative inline-block text-blue-600 font-extrabold h-14 overflow-hidden sm:text-5xl text-3xl"
+            className="relative inline-block text-red-600 font-extrabold h-14 overflow-hidden sm:text-5xl text-3xl"
             style={{ display: "inline-block" }}
           >
             <motion.div
@@ -41,7 +41,7 @@ const ToAbout = () => {
       </h1>
       <NavLink
         to="/contact-us"
-        className="mt-8 px-6 py-3 border font-bold text-xl border-black text-gray-800 hover:bg-gray-800 hover:text-white transition duration-300"
+        className="mt-8 px-6 py-3 border font-bold  text-xl border-black text-gray-800 hover:bg-gray-800 hover:text-white transition duration-300"
       >
         CONTACT US
       </NavLink>

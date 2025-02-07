@@ -1,11 +1,12 @@
 import React from "react";
 
 const Module1 = () => (
+  
   <div className="min-h-screen sticky top-0 bg-cover bg-center  overflow-y-scroll py-10">
-    <div className="absolute inset-0 bg-blue-50"></div>
+    <div className="absolute inset-0 bg-gradient-to-r from-gray-100 via-gray-50 to-gray-100 text-gray-300"></div>
     <div className="relative z-10 flex flex-col  justify-center text-center h-full px-4 lg:px-[5vw] 3xl:px-[10vw]">
       <div className="text-center relative pb-10 lg:pb-15">
-        <h3 className="text-xl font-bold text-[#2B65DF] sm:text-3xl lg:text-2xl pb-3">
+        <h3 className="text-xl font-bold text-primary-900 sm:text-3xl lg:text-2xl pb-3">
           School Admin Panel
         </h3>
         <h3 className="text-xl text-gray-800 font-semibold md:max-w-[60vw] mx-auto ">
@@ -21,7 +22,9 @@ const Module1 = () => (
       <div className="mx-auto flex flex-col  lg:flex-row gap-6 overflow-y-scroll lg:overflow-y-hidden">
         <div className="flex-1 space-y-6 text-start text-gray-800">
           <div className="">
-            <h4 className="font-semibold text-gray-800">Multiple School Management</h4>
+            <h4 className="font-semibold text-gray-800">
+              Multiple School Management
+            </h4>
             <p className="text-gray-700">
               Create, delegate, and manage schools with ease. Simplify your
               administrative tasks with our intuitive platform.

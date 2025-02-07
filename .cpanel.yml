@@ -1,0 +1,11 @@
+
+---
+deployment:
+  tasks:
+    - export NODE_ENV=production
+    - echo "Installing dependencies..."
+    - /usr/local/bin/npm install
+    - echo "Building the React project..."
+    - /usr/local/bin/npm run build
+    - echo "Deploying the build to the public directory..."
+    - rsync -av --delete ./build/ ~/public_html/

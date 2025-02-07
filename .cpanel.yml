@@ -1,11 +1,10 @@
-
 ---
 deployment:
   tasks:
     - export NODE_ENV=production
     - echo "Installing dependencies..."
-    - /usr/local/bin/npm install
+    - /usr/local/bin/npm install --legacy-peer-deps
     - echo "Building the React project..."
     - /usr/local/bin/npm run build
-    - echo "Deploying the build to the public directory..."
-    - rsync -av --delete ./build/ ~/public_html/
+    - echo "Deploying the build to the subdomain directory..."
+    - rsync -av --delete ./build/ /home7/marpscok/repositories/School-System-Website/build/

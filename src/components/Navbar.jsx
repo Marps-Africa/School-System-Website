@@ -33,7 +33,7 @@ function Navbar() {
         showNavbar ? "translate-y-0" : "-translate-y-full"
       } fixed top-0 left-0 w-full z-50 border-b`}
     >
-      <div className="max-w-7xl mx-auto cursor-pointer flex justify-end items-center">
+      <div className=" lg:max-w-[80vw] mx-auto cursor-pointer flex justify-end items-center">
         {/* Logo */}
         {/* <img src="/flavicon.png" alt="logo" className="w-10 h-10" /> */}
 
@@ -59,7 +59,7 @@ function Navbar() {
           </NavLink> */}
           <NavLink
             to="/auth/login"
-            className="px-12 py-3 border border-gray-900 text-gray-900 rounded-md text-xl font-semibold hover:bg-gray-900 hover:text-white"
+            className="px-12 py-3 border transition-all duration-700 border-gray-900  text-gray-900 rounded-md text-xl font-semibold hover:bg-gray-900 hover:text-white"
           >
             LOGIN
           </NavLink>

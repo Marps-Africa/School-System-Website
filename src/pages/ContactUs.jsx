@@ -59,7 +59,7 @@ const ContactUs = () => {
   return (
     <section className="mt-[12vh]">
       <div className="flex flex-col items-center text-center space-y-3 pt-16">
-        <h1 className="text-5xl font-bold text-blue-700">Contact Us</h1>
+        <h1 className="text-5xl font-bold text-primary-900">Contact Us</h1>
         <div className="text-lg font-light">
           <p>We’d love to hear from you!</p>
           <p className="text-lg">Feedback or suggestions? Let us know!</p>
@@ -75,14 +75,14 @@ const ContactUs = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="p-6 space-y-6">
-            <h2 className="text-xl md:text-2xl font-bold text-primary-100">
+            <h2 className="text-xl md:text-2xl font-bold text-primary-900">
               Let’s level up your project, together
             </h2>
             <p className="text-gray-800">
               You can reach us via email,{" "}
               <a
                 href="mailto:marpsafrica@gmail.com"
-                className="text-primary-100 hover:text-primary-200"
+                className="text-primary-900 hover:text-[#be9625] "
               >
                 marpsafrica@gmail.com
               </a>

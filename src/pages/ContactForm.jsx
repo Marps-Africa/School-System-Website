@@ -34,7 +34,7 @@ const ContactForm = ({ onSubmit, isSubmitting }) => {
           onChange={handleChange}
           required
           disabled={isSubmitting}
-          className="w-full p-3 border border-gray-200 rounded-lg focus:ring-primary-100 focus:border-primary-100 placeholder-gray-500 transition duration-300 ease-in-out hover:shadow-lg"
+          className="w-full p-3 border border-gray-200 rounded-lg focus:ring-primary-900 focus:border-primary-900 placeholder-gray-500 transition duration-300 ease-in-out hover:shadow-lg"
           placeholder="Your Name"
         />
       </div>
@@ -49,7 +49,7 @@ const ContactForm = ({ onSubmit, isSubmitting }) => {
           onChange={handleChange}
           required
           disabled={isSubmitting}
-          className="w-full p-3 border border-gray-200 rounded-lg focus:ring-primary-100 focus:border-primary-100 placeholder-gray-500 transition duration-300 ease-in-out hover:shadow-lg"
+          className="w-full p-3 border border-gray-200 rounded-lg focus:ring-primary-900 focus:border-primary-900 placeholder-gray-500 transition duration-300 ease-in-out hover:shadow-lg"
           placeholder="Your Email"
         />
       </div>
@@ -63,7 +63,7 @@ const ContactForm = ({ onSubmit, isSubmitting }) => {
           onChange={handleChange}
           required
           disabled={isSubmitting}
-          className="w-full p-3 border border-gray-200 rounded-lg focus:ring-primary-100 focus:border-primary-100 placeholder-gray-500 transition duration-300 ease-in-out hover:shadow-lg"
+          className="w-full p-3 border border-gray-200 rounded-lg focus:ring-primary-900 focus:border-primary-900 placeholder-gray-500 transition duration-300 ease-in-out hover:shadow-lg"
           rows="5"
           placeholder="Write a message"
         ></textarea>
@@ -71,7 +71,7 @@ const ContactForm = ({ onSubmit, isSubmitting }) => {
       <button
         type="submit"
         disabled={isSubmitting}
-        className="w-full bg-primary-100 hover:bg-primary-200 transition duration-300 ease-in-out text-white p-3 rounded-lg font-semibold flex items-center justify-center space-x-2"
+        className="w-full bg-primary-900 hover:bg-[#be9625] transition duration-300 ease-in-out text-white p-3 rounded-lg font-semibold flex items-center justify-center space-x-2"
       >
         {isSubmitting ? "Sending..." : "Send"}
       </button>

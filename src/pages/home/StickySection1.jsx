@@ -3,16 +3,15 @@ import React from "react";
 const StickySection1 = () => (
   <div
     className="h-auto sticky top-0 bg-cover bg-center"
-    style={{ backgroundImage: `url('boyStudent.webp')` }}
   >
-    <div className="bg-gradient-to-r from-gray-100 via-gray-50 to-gray-100 text-gray-300 flex flex-col justify-center gap-y-8 lg:gap-y-10 px-4 lg:px-[5vw] 3xl:px-[10vw] py-16 lg:py-32 3xl:py-64">
+    <div className="bg-gradient-to-r h-[100vh] from-gray-100 via-gray-50 to-gray-100 text-gray-300 flex flex-col justify-center gap-y-8 lg:gap-y-10 px-4 lg:px-[5vw] 3xl:px-[10vw] py-16 lg:py-32 3xl:py-64 ">
       {/* Heading */}
       <h2 className="uppercase text-[10vw] leading-tight break-words lg:text-[4rem] font-extrabold text-gray-900">
         Revolutionizing Education
       </h2>
 
       {/* Content Wrapper */}
-      <div className="lg:max-w-[70%]">
+      <div className="lg:max-w-[70%] w-[80vw] ">
         <p className="lg:text-lg 3xl:text-xl text-gray-800 font-medium">
           Our School Management System improves efficiency and enhances
           education by integrating modern solutions tailored to meet

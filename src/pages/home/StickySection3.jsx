@@ -3,7 +3,7 @@ import { FaHeadset, FaFileAlt, FaCog, FaTools } from "react-icons/fa";
 
 const StickySection3 = () => (
   <div className="min-h-screen sticky top-0 bg-cover bg-center flex items-center justify-center overflow-y-scroll">
-    <div className="absolute inset-0 bg-blue-50"></div>
+    <div className="absolute inset-0 bg-gradient-to-r from-gray-100 via-gray-50 to-gray-100"></div>
     <div className="overflow-y-scroll">
       <div className="relative z-10 flex flex-col items-center justify-center text-center  text-gray-800 px-4">
         <h1 className="text-5xl font-bold mb-5">Custom Package</h1>

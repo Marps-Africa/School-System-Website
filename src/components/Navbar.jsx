@@ -59,7 +59,7 @@ function Navbar() {
           </NavLink> */}
           <NavLink
             to="https://login.marps.co.ke/"
-            className="px-12 py-3 border transition-all duration-700 border-gray-900  text-gray-900 rounded-md text-xl font-semibold hover:bg-gray-900 hover:text-white"
+            className="px-12 py-3 border transition-all duration-700   text-white  rounded-md text-xl font-semibold bg-blue-500 hover:bg-yellow-500  hover:text-white"
           >
             LOGIN
           </NavLink>

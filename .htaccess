@@ -1,0 +1,9 @@
+# Redirect all non-existing routes to index.html for React Router to handle
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.html [L]
+
+# Custom 404 Error Document
+ErrorDocument 404 /index.html

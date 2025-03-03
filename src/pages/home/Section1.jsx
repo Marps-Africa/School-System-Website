@@ -19,12 +19,12 @@ const Section1 = () => {
           Manage your school easily with our all-in-one system for records,
           grading, and communication.
         </p>
-        {/* <NavLink
+        <NavLink
           to="/auth/login"
-          className="px-12 py-3 border rounded-md border-primary-900  text-white text-xl font-semibold hover:bg-primary-900  hover:text-white transition-all"
+          className="px-12 py-3 border  border-primary-900  text-white text-xl font-semibold hover:bg-primary-900  hover:text-white transition-all"
         >
           LOG IN
-        </NavLink> */}
+        </NavLink>
       </div>
     </div>
   );
